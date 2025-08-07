@@ -26,12 +26,12 @@ jobs:
     
     - name: 🐋 Tag & Push Backend image
       run: |
-        docker tag todo101-todo-backend pannawitmahacharoensiri/todo-backend:lastest
-        docker push pannawitmahacharoensiri/todo-backend:lastest
+        docker tag todo101-todo-backend pannawitmahacharoensiri/todo-backend:latest
+        docker push pannawitmahacharoensiri/todo-backend:latest
 
     - name: 🐋 Tag & Push Frontend image
       run: |
-        docker tag todo101-todo-frontend pannawitmahacharoensiri/todo-frontend:lastest
-        docker push pannawitmahacharoensiri/todo-frontend:lastest
+        docker tag todo101-todo-frontend pannawitmahacharoensiri/todo-frontend:latest
+        docker push pannawitmahacharoensiri/todo-frontend:latest
 
 
